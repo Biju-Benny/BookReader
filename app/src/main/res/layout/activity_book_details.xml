@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".BookDetails"
+    android:background="#F4F0F0"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/bookCoverBd"
+            android:layout_width="match_parent"
+            android:layout_height="500dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bookCoverBd"
+            android:id="@+id/bookNameBd"
+            android:text="Book Name"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bookNameBd"
+            android:id="@+id/authorBd"
+            android:text="Author"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/authorBd"
+            android:id="@+id/contentBd"
+            android:text="ContentContentContentContentContentContentContentContentContentContentContentContentContentContent"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:gravity="fill"
+            android:layout_margin="10dp"/>
+    </RelativeLayout>
+
+
+</ScrollView>
