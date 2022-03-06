@@ -7,6 +7,7 @@
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.2734375" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="app/src/main/res/layout/book_item.xml" value="0.6" />
+        <entry key="app/src/main/res/layout/book_item_fav.xml" value="0.2734375" />
         <entry key="app/src/main/res/layout/fragment_favourites.xml" value="0.2734375" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.2734375" />
         <entry key="app/src/main/res/layout/home_row_list.xml" value="0.27447916666666666" />

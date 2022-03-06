@@ -11,6 +11,8 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.bookreader.*
 import com.example.bookreader.Adapters.HomeAdapterMain
 import com.google.firebase.firestore.FirebaseFirestore
+import com.google.firebase.firestore.ktx.firestore
+import com.google.firebase.ktx.Firebase
 import kotlinx.android.synthetic.main.fragment_home.view.*
 
 
@@ -22,6 +24,7 @@ class HomeFragment : Fragment(),OnClickListnerHome {
     private var booksThriller: MutableList<Book> = mutableListOf()
     private var bookCatagories: MutableList<Catagories> = mutableListOf()
     private lateinit var adapter: HomeAdapterMain
+
 
 
 
@@ -100,6 +103,8 @@ class HomeFragment : Fragment(),OnClickListnerHome {
         intent.putExtra("Author",book.author)
         intent.putExtra("BookCover",book.bookCover)
         intent.putExtra("Content", book.content)
+        intent.putExtra("Genre",book.genre)
+        intent.putExtra("uid",book.uid)
         startActivity(intent)
 
     }
