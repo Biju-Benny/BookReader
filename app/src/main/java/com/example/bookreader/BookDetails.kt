@@ -30,7 +30,7 @@ class BookDetails : AppCompatActivity() {
         favRef.get().addOnSuccessListener { documentSnapshot ->
             var bookFav: Book? = documentSnapshot.toObject<Book>()
             if (bookFav != null){
-                buttonFav.text = "added to favourites"
+                buttonFav.text = "favourite"
                 buttonFav.isEnabled= false
                 buttonFav.setBackgroundColor(Color.GREEN)
                 buttonFav.setTextColor(Color.WHITE)
