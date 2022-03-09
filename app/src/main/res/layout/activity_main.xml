@@ -33,6 +33,8 @@
             android:layout_height="match_parent"
             android:id="@+id/viewPager"
             android:layout_below="@+id/appBarLayout"/>
+
+
     </RelativeLayout>
 
     <com.google.android.material.navigation.NavigationView
